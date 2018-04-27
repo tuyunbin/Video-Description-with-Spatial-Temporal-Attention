@@ -1,2 +1,3 @@
 # Video-Description-with-Spatial-Temporal-Attention
-Our paper was published in the proceedings of ACM Multimedia 2017 (MM' 17) , and code will open soon.
+This package contains the accompanying code for the following paper:
+Tu, Yunbin, et al. "Video Description with Spatial-Temporal Attention." Proceedings of the 2017 ACM on Multimedia Conference. ACM, 2017.
