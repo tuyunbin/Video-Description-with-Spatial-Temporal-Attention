@@ -5,7 +5,7 @@ Tu, Yunbin, et al. ["Video Description with Spatial-Temporal Attention."](http:/
 
 The codes are forked from [yaoli/arctic-capgen-vid](https://github.com/yaoli/arctic-capgen-vid).
 
-## We illustrate the training details, which can also be found in their repo. 
+## We illustrate the training details in following:
 
 ## usage
 
