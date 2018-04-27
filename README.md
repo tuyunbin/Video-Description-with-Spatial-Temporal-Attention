@@ -22,9 +22,7 @@ Finally, you will also need to install [h5py](https://pypi.org/project/h5py/), s
 ### Video Datas and Pre-extracted Features on MSVD and MSR-VTT-10k Datasets respectively.
 
 #### MSVD
-The pre-processed datasets used in the paper are available at these links: 
-
-https://drive.google.com/file/d/12ZIng9uPQy4DyYj88JvKeQJvLJc3le9s/view?usp=sharing
+[The pre-processed datasets used in the paper are available at these links] (https://drive.google.com/file/d/12ZIng9uPQy4DyYj88JvKeQJvLJc3le9s/view?usp=sharing)
 
 
 
