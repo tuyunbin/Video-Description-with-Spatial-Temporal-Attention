@@ -14,4 +14,5 @@ The codes are forked from [yaoli/arctic-capgen-vid](https://github.com/yaoli/arc
 [Theano](http://deeplearning.net/software/theano/install.html) can be easily installed by following the instructions there. Theano has its own dependencies as well. The simpliest way to install Theano is to install Anaconda. Instead of using Theano coming with [Anaconda](https://www.anaconda.com/download/), we suggest running git clone git://github.com/Theano/Theano.git to get the most recent version of Theano.
 
 [coco-caption](https://github.com/tylin/coco-caption). Install it by simply adding it into your $PYTHONPATH.
+
 [Jobman](http://deeplearning.net/software/jobman/install.html). After it has been git cloned, please add it into $PYTHONPATH as well.
