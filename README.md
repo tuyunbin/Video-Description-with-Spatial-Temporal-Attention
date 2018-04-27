@@ -16,3 +16,9 @@ The codes are forked from [yaoli/arctic-capgen-vid](https://github.com/yaoli/arc
 [coco-caption](https://github.com/tylin/coco-caption). Install it by simply adding it into your $PYTHONPATH.
 
 [Jobman](http://deeplearning.net/software/jobman/install.html). After it has been git cloned, please add it into $PYTHONPATH as well.
+
+Finally, you will also need to install [h5py](https://pypi.org/project/h5py/), since we will be using hdf5 files to store the preprocessed data.
+
+### Data and Pre-extracted Features on MSVD and MSR-VTT-10 Datasets respectively.
+
+#### MSVD
