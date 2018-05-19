@@ -1,7 +1,7 @@
 # Video-Description-with-Spatial-Temporal-Attention
 This package contains the accompanying code for the following paper:
 
-Tu, Yunbin, et al. ["Video Description with Spatial-Temporal Attention."](http://delivery.acm.org/10.1145/3130000/3123354/p1014-tu.pdf?ip=58.60.1.113&id=3123354&acc=ACTIVE%20SERVICE&key=BF85BBA5741FDC6E%2E0871A888CCEFF346%2EE1B7C59A421B1D76%2E4D4702B0C3E38B35&__acm__=1524795092_f95c862de249b8599ebe872d9bfe4c2d) Proceedings of the 2017 ACM on Multimedia Conference. ACM, 2017.
+Tu, Yunbin, et al. ["Video Description with Spatial-Temporal Attention."](http://delivery.acm.org/10.1145/3130000/3123354/p1014-tu.pdf?ip=58.60.1.113&id=3123354&acc=ACTIVE%20SERVICE&key=BF85BBA5741FDC6E%2E0871A888CCEFF346%2EE1B7C59A421B1D76%2E4D4702B0C3E38B35&__acm__=1524795092_f95c862de249b8599ebe872d9bfe4c2d) which has appeared as full paper in the Proceedings of the ACM International Conference on Multimedia,2017 (ACM MM'17).
 
 The codes are forked from [yaoli/arctic-capgen-vid](https://github.com/yaoli/arctic-capgen-vid).
 
@@ -17,7 +17,7 @@ The codes are forked from [yaoli/arctic-capgen-vid](https://github.com/yaoli/arc
 
 [Jobman](http://deeplearning.net/software/jobman/install.html). After it has been git cloned, please add it into $PYTHONPATH as well.
 
-Finally, you will also need to install [h5py](https://pypi.org/project/h5py/), since we will be using hdf5 files to store the preprocessed data.
+Finally, you will also need to install [h5py](https://pypi.org/project/h5py/), since we will use hdf5 files to store the preprocessed data.
 
 ### Video Datas and Pre-extracted Features on MSVD and MSR-VTT-10k Datasets respectively.
 
