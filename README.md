@@ -13,7 +13,7 @@ The codes are forked from [yaoli/arctic-capgen-vid](https://github.com/yaoli/arc
 
 Firstly, Clone our repository:
 ```
-git clone https://github.com/tuyunbin/Video-Description-with-Spatial-Temporal-Attention.git
+$ git clone https://github.com/tuyunbin/Video-Description-with-Spatial-Temporal-Attention.git
 ```
 
 Here, msvd_data contains 7 pkl files needed to train and test the model.
@@ -21,7 +21,7 @@ Here, msvd_data contains 7 pkl files needed to train and test the model.
 
 [Theano](http://deeplearning.net/software/theano/install.html) can be easily installed by following the instructions there. Theano has its own dependencies as well. The second way to install Theano is to install Anaconda. If you use first way to install Theao, you may meet the error : "no module named pygpu". If so, you should install it with Anaconda, but you needn't change your python environment. You only add this command when you use Theano:
 ```
-export PATH="/home/tuyunbin/anaconda2/bin:$PATH"
+$ export PATH="/home/tuyunbin/anaconda2/bin:$PATH"
 ```
 (Changing your own PATH)
 
@@ -48,15 +48,15 @@ RAB_EXP_PATH = '/home/sdc/tuyunbin/msvd_result/g+rcnn+c3d/exp/'
 ```
 according to your specific setup. The first path is the parent dir path containing msvd_data folder. The second path specifies where you would like to save all the experimental results.
 Before testing the model, we suggest to test ```data_engine.py``` by running python data_engine.py without any error.
-It is also useful to verify coco-caption evaluation pipeline works properly by running python metrics.py without any error.
+It is also useful to verify coco-caption evaluation pipeline works properly by running ```python metrics.py``` without any error.
 
-Then, you can directly exploit our trained model by setting this configuration with 'True' in config.py.
+Then, you can directly exploit our trained model by setting this configuration with 'True' in ```config.py```.
 ```
 'reload_': True,
 ```
 
 ### Train your own model
-Here, you need to set 'False' with reload in config.py
+Here, you need to set 'False' with reload in ```config.py```.
 
 Now ready to launch the training
 ```
