@@ -41,16 +41,19 @@ In our paper, we used local features extracted from the fc7 layer of Faster R-CN
 Note: Since the data amount on MSR-VTT-10K is too large, we don't offer the data we used. You can train your model on this dataset with the same code. But don't forget to shuffle the train_id when training the model. 
 
 ### Test model trained by us
-Go to common.py and change the following two line 
+
+[Firstly, you need to download the pre-trained model by us at this link](), and add them into $PYTHONPATH. 
+
+Secondly, go to common.py and change the following two line 
 ```
-RAB_DATASET_BASE_PATH = '/home/tuyunbin/g+rcnn+c3d/msvd_data/' 
-RAB_EXP_PATH = '/home/sdc/tuyunbin/msvd_result/g+rcnn+c3d/exp/' 
+RAB_DATASET_BASE_PATH = '/home/tuyunbin/Video-Description-with-Spatial-Temporal-Attention/msvd_data/' 
+RAB_EXP_PATH = '/home/sdc/tuyunbin/msvd_result/Video-Description-with-Spatial-Temporal-Attention/exp/' 
 ```
 according to your specific setup. The first path is the parent dir path containing msvd_data folder. The second path specifies where you would like to save all the experimental results.
 Before testing the model, we suggest to test ```data_engine.py``` by running python data_engine.py without any error.
 It is also useful to verify coco-caption evaluation pipeline works properly by running ```python metrics.py``` without any error.
 
-Then, you can directly exploit our trained model by setting this configuration with 'True' in ```config.py```.
+Finally, you can exploit our trained model by setting this configuration with 'True' in ```config.py```.
 ```
 'reload_': True,
 ```
@@ -67,3 +70,7 @@ THEANO_FLAGS=mode=FAST_RUN,device=cuda0,floatX=float32 python train_model.py
 
 Running train_model.py for the first time takes much longer since Theano needs to compile for the first time lots of things and cache on disk for the future runs. You will probably see some warning messages on stdout. It is safe to ignore all of them. Both model parameters and configurations are saved (the saving path is printed out on stdout, easy to find). The most important thing to monitor is train_valid_test.txt in the exp output folder. It is a big table saving all metrics per validation. 
 
+### Contact
+My email is tuyunbin1995@foxmail.com
+
+Any discussions and suggestions are welcome!
