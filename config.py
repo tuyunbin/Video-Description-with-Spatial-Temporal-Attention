@@ -11,7 +11,7 @@ config = DD({
     'attention': DD({
         'reload_': False,
         'save_model_dir': exp_path + 'test_non/',
-        'from_dir': '/home/sdc/tuyunbin/msvd_result/g+rcnn+c3d_8+32+200/exp/test_non/',
+        'from_dir': '/home/tuyunbin/Video-Description-with-Spatial-Tempral-Attention/pretrained_model/',
         'dataset': 'youtube2text', 
         'video_feature': 'googlenet',
         'dim_word':512, # 474
