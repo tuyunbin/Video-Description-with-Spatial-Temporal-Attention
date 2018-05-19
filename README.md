@@ -35,7 +35,11 @@ Finally, you will also need to install [h5py](https://pypi.org/project/h5py/), s
 
 [The pre-processed datasets used in our paper are available at this links](http://www.multcloud.com/share/050e69cd-cab9-4ba3-a671-ed459341ab41)
 
-[The pre-processed global, motion and local features used in our paper can be download at this link](http://www.multcloud.com/share/21a1a8c8-f2df-4a68-8e6b-9be1c6f8d669)
+The pre-processed global, motion and local features used in our paper can be download at these links:
+
+[global and motion features](http://www.multcloud.com/share/c86f1a5e-e3e5-459d-8af2-e615a3818a0b)
+[local features](http://www.multcloud.com/share/08a3d104-1c61-4047-8045-931879106ffd)
+
 In our paper, we used local features extracted from the fc7 layer of Faster R-CNN network, and their number is 8. You can extract local features with other number by [Faster R-CNN](https://github.com/rbgirshick/py-faster-rcnn).
 
 Note: Since the data amount on MSR-VTT-10K is too large, we don't offer the data we used. You can train your model on this dataset with the same code. But don't forget to shuffle the train_id when training the model. 
