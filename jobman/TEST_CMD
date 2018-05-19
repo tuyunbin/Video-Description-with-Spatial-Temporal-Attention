@@ -1,0 +1,29 @@
+# This is some test command to execute manually
+# Those tests commands don't cover everything.
+exit
+SERVER="TO_FILL"
+
+DB_NAME=TEST_JOBMAN2
+P="postgres://$USER@${SERVER}/${USER}_db/${DB_NAME}"
+EXPDIR=/tmp/TEST_JOBMAN_EXP
+
+
+jobman sqlschedule --force ${P} jobman.experiments.example_sleep sleep=5
+jobman sqlschedules --force ${P} jobman.experiments.example_sleep sleep="{{1,2,3}}"
+jobman sqlstatus $P 1
+jobman sqlview ${P} ${DB_NAME}_view
+jobman sql ${P} $EXPDIR
+jobman sqlstatus --status=0 --status=2 ${P}
+jobman check ${P}
+jobman cmdline jobman.experiments.example1
+jobman sqlstatus --set_status=0 $P 1
+
+#TEST CONCURRENTLY CHECKOUT IN THE DB
+# THE FOLLOWING LINE CREATE ONLY 1 jobs. Check and fix!
+jobman sqlschedules -f -r 30 -q ${P} jobman.experiments.example_sleep sleep=1
+for i in `seq 30` ; do jobman sql ${P} ${OUT_DIR} & done;
+jobman check ${P}
+
+jobman sqlstatus --status=3 --set_status=START ${P}
+jobman sqlstatus --status=ERR_SYNC --set_status=ERR_RUN ${P}
+jobman sqlstatus --status=ERR_RUN --set_status=ERR_SYNC ${P}
