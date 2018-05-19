@@ -7,11 +7,11 @@ import theano.tensor as tensor
 from theano.sandbox.rng_mrg import MRG_RandomStreams
 
 # the dir where there should be a subdir named 'msvd_data'
-RAB_DATASET_BASE_PATH = '/home/tuyunbin/g+rcnn+c3d/msvd_data/'
+RAB_DATASET_BASE_PATH = '/home/tuyunbin/Video-Description-with-Spatial-Temporal-Attention/'
 # the dir where all the experiment data is dumped
 #
 # .the dir where store your experimental results
-RAB_EXP_PATH = '/home/sdc/tuyunbin/msvd_result/g+rcnn+c3d/exp/'
+RAB_EXP_PATH = '/home/sdc/tuyunbin/msvd_result/Video-Description-with-Spatial-Temporal-Attention/exp/'
 
 def get_two_rngs(seed=None):
     if seed is None:

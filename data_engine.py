@@ -223,6 +223,7 @@ class Movie2Caption(object):
         if self.signature == 'youtube2text':
             print 'loading youtube2text %s features'%self.video_feature
             dataset_path = common.get_rab_dataset_base_path()+'msvd_data/'
+	    self.train = common.load_pkl(dataset_path + 'train.pkl')
             self.valid = common.load_pkl(dataset_path + 'valid.pkl')
             self.test = common.load_pkl(dataset_path + 'test.pkl')
             self.CAP = common.load_pkl(dataset_path + 'CAP.pkl')
