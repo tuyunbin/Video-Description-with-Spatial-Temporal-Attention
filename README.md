@@ -68,7 +68,7 @@ Here, you need to set 'False' with reload in ```config.py```.
 
 Now ready to launch the training
 ```
-THEANO_FLAGS=mode=FAST_RUN,device=cuda0,floatX=float32 python train_model.py
+$ THEANO_FLAGS=mode=FAST_RUN,device=cuda0,floatX=float32 python train_model.py
 ```
 
 ### Notes
