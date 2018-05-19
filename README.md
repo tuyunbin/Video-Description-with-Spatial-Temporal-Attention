@@ -47,7 +47,7 @@ Note: Since the data amount on MSR-VTT-10K is too large, we don't offer the data
 
 ### Test model trained by us
 
-[Firstly, you need to download the pre-trained model by us at this link](), and add them into $PYTHONPATH. 
+[Firstly, you need to download the pre-trained model at this link](http://www.multcloud.com/share/e31c7520-c44c-450e-93c6-f367a235575b), and add them into $PYTHONPATH. 
 
 Secondly, go to common.py and change the following two line 
 ```
