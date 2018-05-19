@@ -10,8 +10,15 @@ The codes are forked from [yaoli/arctic-capgen-vid](https://github.com/yaoli/arc
 ## usage
 
 ### Dependencies
+Firstly, Clone the STAT repository:
 
-[Theano](http://deeplearning.net/software/theano/install.html) can be easily installed by following the instructions there. Theano has its own dependencies as well. The simpliest way to install Theano is to install Anaconda. Instead of using Theano coming with [Anaconda](https://www.anaconda.com/download/), we suggest running git clone git://github.com/Theano/Theano.git to get the most recent version of Theano.
+
+
+[Theano](http://deeplearning.net/software/theano/install.html) can be easily installed by following the instructions there. Theano has its own dependencies as well. The second way to install Theano is to install Anaconda. If you use first way to install Theao, you may meet the erro : "no module named pygpu". If so, you should install it with Anaconda, but you needn't change your python environment. Adding this command will be fine when you use Theano:
+```
+export PATH="/home/tuyunbin/anaconda2/bin:$PATH"
+```
+(Changing your own PATH)
 
 [coco-caption](https://github.com/tylin/coco-caption). Install it by simply adding it into your $PYTHONPATH.
 
@@ -19,12 +26,14 @@ The codes are forked from [yaoli/arctic-capgen-vid](https://github.com/yaoli/arc
 
 Finally, you will also need to install [h5py](https://pypi.org/project/h5py/), since we will use hdf5 files to store the preprocessed data.
 
-### Video Datas and Pre-extracted Features on MSVD and MSR-VTT-10k Datasets respectively.
+### Video Datas and Pre-extracted Features on MSVD Dataset.
 
 #### MSVD
 
-[The pre-processed datasets used in the paper are available at these links](https://drive.google.com/file/d/1LyfN6s8xKju-iad8M3OvaqFeoPT4aQV9/view?usp=sharing)
+[The pre-processed datasets used in our paper are available at this links](http://www.multcloud.com/share/050e69cd-cab9-4ba3-a671-ed459341ab41
 
+[The pre-processed global, motion and local features used in our paper can be download at this link](http://www.multcloud.com/share/21a1a8c8-f2df-4a68-8e6b-9be1c6f8d669)
+In our paper, we used local features are extracted from the fc7 layer of Faster R-CNN network, and their number is 8. Here, we additionally provide local features with number 10, since the effect with number 10 is better accoring to comparison experiments. Besides, we attempt to use another local fatures called label features. We extracted top-n objects name by Faster R-CNN and transformed these name into label fatures with pre-trained Glove model (i.e. these label features are word representation of top-n object name), and their dimension are 300. Here, we find that it achieve better results when setting their number is 6.
 
 
 
