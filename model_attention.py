@@ -369,7 +369,7 @@ class Attention(object):
                   dp_=None, dp_att_=None):
             #spatial attention
             pstatel_ = tensor.dot(h_, Wdl_att)
-            pctxl_ = pctxl_ + pstatel_[:,:,None,:]
+            pctxl_ = pctxl_ + pstatel_[:,None,None,:]
             pctxl_list = []
             pctxl_list.append(pctxl_)
             pctxl_ = tanh(pctxl_)
