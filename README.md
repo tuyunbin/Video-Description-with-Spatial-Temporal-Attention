@@ -71,6 +71,18 @@ Now ready to launch the training
 $ THEANO_FLAGS=mode=FAST_RUN,device=cuda0,floatX=float32 python train_model.py
 ```
 
+If you find this helps your research, please consider citing:
+```
+@inproceedings{tu2017video,
+  title={Video Description with Spatial-Temporal Attention},
+  author={Tu, Yunbin and Zhang, Xishan and Liu, Bingtao and Yan, Chenggang},
+  booktitle={Proceedings of the 2017 ACM on Multimedia Conference},
+  pages={1014--1022},
+  year={2017},
+  organization={ACM}
+}
+```
+
 ### Notes
 
 Running train_model.py for the first time takes much longer since Theano needs to compile for the first time lots of things and cache on disk for the future runs. You will probably see some warning messages on stdout. It is safe to ignore all of them. Both model parameters and configurations are saved (the saving path is printed out on stdout, easy to find). The most important thing to monitor is train_valid_test.txt in the exp output folder. It is a big table saving all metrics per validation. 
