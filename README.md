@@ -19,7 +19,7 @@ $ git clone https://github.com/tuyunbin/Video-Description-with-Spatial-Temporal-
 Here, msvd_data contains 7 pkl files needed to train and test the model.
 ### Dependencies
 
-[Theano](http://deeplearning.net/software/theano/install.html) can be easily installed by following the instructions there. Theano has its own dependencies as well. The second way to install Theano is to install Anaconda. If you use first way to install Theao, you may meet the error : "no module named pygpu". If so, you should install it with Anaconda, but you needn't change your python environment. You only add this command when you use Theano:
+[Theano](http://deeplearning.net/software/theano/install.html) can be easily installed by following the instructions there. Theano has its own dependencies as well. The second way to install Theano is to install Anaconda. If you use first way to install Theano, you may meet the error : "no module named pygpu". If so, you should install it with Anaconda, but you needn't change your python environment. You only add this command when you use Theano:
 ```
 $ export PATH="/home/tuyunbin/anaconda2/bin:$PATH"
 ```
@@ -47,7 +47,7 @@ Note: Since the data amount on MSR-VTT-10K is too large, we don't offer the data
 
 ### Test model trained by us
 
-[Firstly, you need to download the pre-trained model at this link](http://www.multcloud.com/share/e31c7520-c44c-450e-93c6-f367a235575b), and add them into $PYTHONPATH. 
+[Firstly, you need to download the pre-trained model at this link](http://www.multcloud.com/share/e31c7520-c44c-450e-93c6-f367a235575b), and add them into your $PYTHONPATH. 
 
 Secondly, go to common.py and change the following two line 
 ```
