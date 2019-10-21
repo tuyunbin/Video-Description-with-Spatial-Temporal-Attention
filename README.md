@@ -1,7 +1,7 @@
 # Video-Description-with-Spatial-Temporal-Attention
 This package contains the accompanying code for the following paper:
 
-Tu, Yunbin, et al. ["Video Description with Spatial-Temporal Attention."](https://dl.acm.org/citation.cfm?id=3123266.3123354), and ["Baidu Cloud"](https://www.multcloud.com/share/e795d4a3-75ab-4906-829e-eaa90a91b4b1), which has appeared as full paper in the Proceedings of the ACM International Conference on Multimedia,2017 (ACM MM'17). 
+Tu, Yunbin, et al. ["Video Description with Spatial-Temporal Attention."](https://dl.acm.org/citation.cfm?id=3123266.3123354), and ["Baidu Cloud"](https://pan.baidu.com/s/1Aooe0aJ8Xid9gjtfTRn1_A&shfl=sharepset), which has appeared as full paper in the Proceedings of the ACM International Conference on Multimedia,2017 (ACM MM'17). 
 
 The codes are forked from [yaoli/arctic-capgen-vid](https://github.com/yaoli/arctic-capgen-vid).
 
