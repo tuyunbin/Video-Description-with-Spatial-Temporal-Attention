@@ -33,13 +33,13 @@ Finally, you will also need to install [h5py](https://pypi.org/project/h5py/), s
 
 ### Video Datas and Pre-extracted Features on MSVD Dataset.
 
-[The pre-processed datasets used in our paper are available at this links,](https://drive.google.com/file/d/1LyfN6s8xKju-iad8M3OvaqFeoPT4aQV9/view?usp=sharing) [And there is baidu cloud link.](https://pan.baidu.com/s/1o-RlsSaLlxYJHzkhhKwQxw)
+[The pre-processed datasets used in our paper are available at this links](https://drive.google.com/file/d/1LyfN6s8xKju-iad8M3OvaqFeoPT4aQV9/view?usp=sharing), [and there is baidu cloud link.](https://pan.baidu.com/s/1o-RlsSaLlxYJHzkhhKwQxw)
 
 The pre-processed global, motion and local features used in our paper can be download at these links:
 
-[global features](https://drive.google.com/file/d/1tiZg3q7RJtMJbFzgUeS0NyGsfuXce8yh/view?usp=sharing) [And there is baidu cloud link.]
+[global features](https://drive.google.com/file/d/1tiZg3q7RJtMJbFzgUeS0NyGsfuXce8yh/view?usp=sharing), [and there is baidu cloud link.]()
 
-[motion features](https://drive.google.com/file/d/1U0Spn3dsDamhDT_Akx-ySHvpZlgOsx9B/view?usp=sharing) [And there is baidu cloud link.](https://pan.baidu.com/s/1n-ITIIhddak0X-rXmACSWw)
+[motion features](https://drive.google.com/file/d/1U0Spn3dsDamhDT_Akx-ySHvpZlgOsx9B/view?usp=sharing), [and there is baidu cloud link.](https://pan.baidu.com/s/1n-ITIIhddak0X-rXmACSWw)
 
 [local features](https://pan.baidu.com/s/1TvZL0ktP2tMxNJV4kYCLeg)
 
