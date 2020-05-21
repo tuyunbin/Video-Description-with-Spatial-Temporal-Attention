@@ -41,7 +41,8 @@ The pre-processed global, motion and local features used in our paper can be dow
 
 [motion features](https://drive.google.com/file/d/1U0Spn3dsDamhDT_Akx-ySHvpZlgOsx9B/view?usp=sharing), [and there is the baidu cloud link.](https://pan.baidu.com/s/1n-ITIIhddak0X-rXmACSWw)
 
-[local features](https://pan.baidu.com/s/1TvZL0ktP2tMxNJV4kYCLeg)
+[local features](https://pan.baidu.com/s/1DmYH6FmtKLmepLnBMOcDFw)
+extracting code is: h7nq
 
 In our paper, we used local features extracted from the fc7 layer of Faster R-CNN network, and their number is 8. You can extract local features with other number by [Faster R-CNN](https://github.com/rbgirshick/py-faster-rcnn).
 
