@@ -50,7 +50,7 @@ Note: Since the data amount on MSR-VTT-10K is too large, we don't offer the data
 
 ### Test model trained by us
 
-[Firstly, you need to download the pre-trained model at this link](https://pan.baidu.com/s/1lGCDpqd0pbb5ot1P-Nw4bg), and add them into your $PYTHONPATH. 
+[Firstly, you need to download the pre-trained model at this link](https://pan.baidu.com/s/1lGCDpqd0pbb5ot1P-Nw4bg) [this is google driver link] (https://drive.google.com/file/d/1DWbnv2Mztf36nK5LGTei4tx1KQQ72VXb/view?usp=sharing), and as add them into your $PYTHONPATH. 
 
 Secondly, go to common.py and change the following two line 
 ```
