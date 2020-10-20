@@ -84,6 +84,8 @@ If you find this helps your research, please consider citing:
   year={2017},
   organization={ACM}
 }
+
+@ARTICLE{8744407,  author={C. {Yan} and Y. {Tu} and X. {Wang} and Y. {Zhang} and X. {Hao} and Y. {Zhang} and Q. {Dai}},  journal={IEEE Transactions on Multimedia},   title={STAT: Spatial-Temporal Attention Mechanism for Video Captioning},   year={2020},  volume={22},  number={1},  pages={229-241},}
 ```
 
 ### Notes
